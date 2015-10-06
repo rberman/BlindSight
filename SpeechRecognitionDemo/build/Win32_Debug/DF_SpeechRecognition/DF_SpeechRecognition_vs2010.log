@@ -1,0 +1,24 @@
+﻿Build started 2015/9/28 19:40:41.
+     1>Project "C:\Program Files (x86)\Intel\RSSDK\sample\DF_SpeechRecognition\DF_SpeechRecognition_vs2010.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I. /Iinclude /Ires /I../common/include /I../../include /I"C:\Program Files (x86)\Intel\RSSDK\/include" /I"C:\Program Files (x86)\Intel\RSSDK\/sample/common/include" /Z7 /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _CONSOLE /D _WIN32_WINNT=0x0602 /D _UNICODE /D UNICODE /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"build/Win32_Debug/DF_SpeechRecognition/" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\\bin\localespc.dll" /errorReport:prompt   /analyze:quiet src\speech_recognition.cpp src\main.cpp
+         speech_recognition.cpp
+         main.cpp
+         Running Code Analysis for C/C++...
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I. /Iinclude /Ires /I../common/include /I../../include /I"C:\Program Files (x86)\Intel\RSSDK\/include" /I"C:\Program Files (x86)\Intel\RSSDK\/sample/common/include" /nologo /fo"build/Win32_Debug/DF_SpeechRecognition/speech_recognition.res" speech_recognition.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin/Win32/DF_SpeechRecognition_d.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../common/lib/Win32/v140 /LIBPATH:../../lib/Win32 /LIBPATH:"C:\Program Files (x86)\Intel\RSSDK\/lib/Win32" /LIBPATH:"C:\Program Files (x86)\Intel\RSSDK\/sample/common/lib/Win32/v140" libpxc_d.lib libpxcutils_d.lib oleaut32.lib user32.lib odbccp32.lib ole32.lib advapi32.lib shell32.lib gdi32.lib comdlg32.lib uuid.lib winspool.lib odbc32.lib kernel32.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"bin/Win32/DF_SpeechRecognition_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin/Win32/DF_SpeechRecognition_d.lib" /MACHINE:X86 /SAFESEH build/Win32_Debug/DF_SpeechRecognition/speech_recognition.res
+         build/Win32_Debug/DF_SpeechRecognition/speech_recognition.obj
+         build/Win32_Debug/DF_SpeechRecognition/main.obj
+         DF_SpeechRecognition_vs2010.vcxproj -> C:\Program Files (x86)\Intel\RSSDK\sample\DF_SpeechRecognition\bin/Win32/DF_SpeechRecognition_d.exe
+     1>c:\program files (x86)\intel\rssdk\sample\df_speechrecognition\src\speech_recognition.cpp(210): warning C6386: Buffer overrun while writing to '_cmds':  the writable size is 'cmds.public: unsigned int __thiscall std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > >::size(void)const ()*4' bytes, but '8' bytes might be written.
+     1>c:\program files (x86)\intel\rssdk\sample\df_speechrecognition\src\main.cpp(291): warning C6385: Reading invalid data from 'line':  the readable size is '_Old_9`1024' bytes, but '-2' bytes may be read.
+     1>c:\program files (x86)\intel\rssdk\sample\df_speechrecognition\src\main.cpp(292): warning C6386: Buffer overrun while writing to 'line':  the writable size is '1024' bytes, but '-2' bytes might be written.
+     1>c:\program files (x86)\intel\rssdk\sample\df_speechrecognition\src\main.cpp(476): warning C28251: Inconsistent annotation for 'wWinMain': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\winbase.h(918). 
+     1>Done Building Project "C:\Program Files (x86)\Intel\RSSDK\sample\DF_SpeechRecognition\DF_SpeechRecognition_vs2010.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.75

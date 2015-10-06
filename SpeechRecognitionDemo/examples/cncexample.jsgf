@@ -1,0 +1,22 @@
+#JSGF V1.0;
+
+//
+// Inspired by and extending example in http://www.w3.org/TR/jsgf
+//
+
+grammar cncexample;
+
+public <cnccommand> = [ <start-polite> ] <command> [ <end-polite> ];
+
+<start-polite> = ( please | would you | could you | kindly ) * ;
+
+<command> = <operation> [ <determiner> ] <object> ;
+
+<end-polite> = ( please | thank you | thanks | if you would ) * ;
+
+<operation> = ( open | move | copy | delete | close | cut | drag | minimize | maximize | restore ) ;
+
+<determiner> = ( a | an | the ) ;
+
+<object> = ( file | window | menu | pop up | link | connection | directory | table | picture | application ) ;
+

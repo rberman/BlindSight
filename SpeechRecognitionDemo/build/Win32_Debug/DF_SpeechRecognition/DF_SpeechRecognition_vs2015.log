@@ -1,0 +1,16 @@
+﻿Build started 2015/10/6 16:44:32.
+     1>Project "C:\Users\Avery Liu\Desktop\DF_SpeechRecognition\DF_SpeechRecognition_vs2015.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (build/Win32_Debug/DF_SpeechRecognition/) contains files shared from another project (DF_SpeechRecognition.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I. /Iinclude /Ires /I../common/include /I../../include /I"C:\Program Files (x86)\Intel\RSSDK\/include" /I"C:\Program Files (x86)\Intel\RSSDK\/sample/common/include" /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _WIN32_WINNT=0x0602 /D _UNICODE /D UNICODE /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"build/Win32_Debug/DF_SpeechRecognition/" /Gd /TP /analyze- /errorReport:prompt src\speech_recognition.cpp
+         speech_recognition.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin/Win32/DF_SpeechRecognition_d.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../common/lib/Win32/v140 /LIBPATH:../../lib/Win32 /LIBPATH:"C:\Program Files (x86)\Intel\RSSDK\/lib/Win32" /LIBPATH:"C:\Program Files (x86)\Intel\RSSDK\/sample/common/lib/Win32/v140" libpxc_d.lib libpxcutils_d.lib oleaut32.lib user32.lib odbccp32.lib ole32.lib advapi32.lib shell32.lib gdi32.lib comdlg32.lib uuid.lib winspool.lib odbc32.lib kernel32.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"bin/Win32/DF_SpeechRecognition_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin/Win32/DF_SpeechRecognition_d.lib" /MACHINE:X86 /SAFESEH build/Win32_Debug/DF_SpeechRecognition/speech_recognition.res
+         build/Win32_Debug/DF_SpeechRecognition/speech_recognition.obj
+         build/Win32_Debug/DF_SpeechRecognition/main.obj
+         DF_SpeechRecognition_vs2015.vcxproj -> C:\Users\Avery Liu\Desktop\DF_SpeechRecognition\bin/Win32/DF_SpeechRecognition_d.exe
+     1>Done Building Project "C:\Users\Avery Liu\Desktop\DF_SpeechRecognition\DF_SpeechRecognition_vs2015.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.86
